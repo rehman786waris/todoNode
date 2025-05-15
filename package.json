@@ -1,20 +1,29 @@
 {
   "name": "todonode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rehman786waris/todoNode.git"
   },
-  "keywords": [],
+  "keywords": [
+    "descriptive",
+    "related",
+    "words"
+  ],
   "author": "rehman waris",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rehman786waris/todoNode/issues"
   },
   "homepage": "https://github.com/rehman786waris/todoNode#readme",
-  "description": "A project that does something awesome"
+  "description": "A project that does something awesome",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemo": "^1.0.0"
+  }
 }
